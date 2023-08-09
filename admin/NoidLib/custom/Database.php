@@ -16,7 +16,7 @@ use Noid\Lib\Helper;
 use Noid\Lib\Log;
 use \Exception;
 use Noid\Lib\Storage\DatabaseInterface;
-use Noid\Config\MysqlArkConf;
+use Noid\Lib\Custom\MysqlArkConf;
 
 class Database
 {

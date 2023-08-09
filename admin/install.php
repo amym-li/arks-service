@@ -4,7 +4,7 @@ require_once "functions.php";
 
 use Noid\Lib\Custom\Database;
 use Noid\Lib\Custom\GlobalsArk;
-use Noid\Config\MysqlArkConf;
+use Noid\Lib\Custom\MysqlArkConf;
 
 ob_start();
 GlobalsArk::$db_type = 'ark_mysql';

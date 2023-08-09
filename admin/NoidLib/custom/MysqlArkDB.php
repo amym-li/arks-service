@@ -10,7 +10,7 @@ use Noid\Lib\Storage\Database;
 use Noid\Lib\Custom\Noid\Lib\Custom;
 use \mysqli;
 use \mysqli_result;
-use Noid\Config\MysqlArkConf;
+use Noid\Lib\Custom\MysqlArkConf;
 
 
 class MysqlArkDB implements DatabaseInterface

@@ -26,7 +26,7 @@
 <?php
 require_once 'config/MysqlArkConf.php';
 
-use Noid\Config\MysqlArkConf;
+use Noid\Lib\Custom\MysqlArkConf;
 
 if (strpos($_SERVER['REQUEST_URI'], "/ark:/") === 0 || strpos($_SERVER['REQUEST_URI'], "/ark:") === 0) {
   // processing the Ark URL
